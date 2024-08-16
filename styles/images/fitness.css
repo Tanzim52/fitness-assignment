@@ -4,8 +4,9 @@
 
 } */
 
-
-
+/* *{
+    border: 1px solid red;
+} */
 
 
 
@@ -377,6 +378,153 @@ main{
 
 
 
+.shop-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.eqp-main-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+.eqp-main-des{
+    color: #989898;
+    font-size: 16px;
+    margin-top:  20px;
+    margin-bottom: 50px;
+}
+
+
+.gym-shop{
+    padding: 60px;
+    background-color: rgb(67, 67, 67);
+    border: none;
+    border-radius: 8px;
+
+}
+.gym-eq{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    text-align: center;
+    gap: 40px;
+}
+
+
+
+
+.gym-equipment1{
+    max-height: 650px;
+    background-color: darkgrey;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.gym-equipment1:hover{
+    height: 100%;
+    background-color: darkgrey;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 4px rgb(49, 49, 49);
+}
+.gym-equipment2{
+    height: 100%;
+    background-color: darkgrey;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 650px;
+}
+.gym-equipment2:hover{
+    height: 100%;
+    background-color: darkgrey;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 4px rgb(49, 49, 49);
+}
+
+.gym-equipment{
+    background-color: darkgrey;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 0px;
+    height: 500px;
+   
+}
+.gym-equipment:hover{
+    background-color: darkgrey;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 0px;
+    box-shadow: 5px 4px 5px 4px rgb(49, 49, 49);
+}
+
+
+
+.eqp-img1{
+    width: 100%;
+    height: 70%;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+.eqp-img{
+    width: 100%;
+    padding-top: 0px;
+    border-radius: 10px;
+    
+}
+
+
+.eqp-title1{
+    position: relative;
+    top: -80px;
+    left: 50px;
+    text-align: left;
+    
+}
+
+.eqp-title{
+    position: relative;
+    top: -80px;
+    left: 50px;
+    text-align: left;
+    
+}
+
+.eqp-des{
+    
+    text-align: center;
+    margin: 0;    
+}
+.purchase{
+    border-radius: 20px;
+    background-color: transparent ;
+    border: 3px solid rgb(230, 83, 60);
+    color: white;
+    padding: 8px;
+    margin-top: 25px;
+}
+.purchase-1{
+    border-radius: 20px;
+    background-color: transparent ;
+    border: 3px solid rgb(230, 83, 60);
+    color: white;
+    padding: 8px;
+    margin-top: 25px;
+}
+
+.purchase:hover{
+    border: none;
+    background-color:rgb(230, 83, 60) ;
+}
+.purchase-1:hover{
+    border: none;
+    background-color:rgb(230, 83, 60) ;
+}
+
+
 
 
 
@@ -472,7 +620,7 @@ main{
 
 }
 .before-title{
-    text-align: left  ;
+    text-align: center  ;
     
 }
 .before-desc{
@@ -619,7 +767,7 @@ th{
 
 .before-team{
     margin: 30px 15%;
-    text-align: left;
+    text-align: center;
 }
 
 .before-title{
@@ -804,6 +952,9 @@ footer{
 @media screen and (max-width : 576px){
 
 
+    /* *{
+        border: 1px solid red;
+    } */
 
     #check-button{
         display: block;
@@ -933,6 +1084,86 @@ footer{
 
 
 
+    .gym-shop {
+        margin: 60px 0px;
+        padding: 60px 0px;
+        height: 100%;
+    }
+
+    .gym-eq{
+        margin: 0px;
+        height: 100%;
+    }
+
+    .mobile-eqp{
+        width: 90%;
+        height: auto;
+        margin-top: -250px;
+        
+
+    }
+   
+
+    .gym-equipment{
+        margin-top: px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .gym-equipment:hover{
+        background-color: darkgrey;
+        width: 90%;
+        border-radius: 10px;
+        margin-top: 0px;
+        box-shadow: 5px 4px 5px 4px rgb(49, 49, 49);
+    }
+    .gym-equipment1{
+        /* height:1000%; */
+        width: 90%;
+        margin: 0px 5%;
+    
+    }
+    .gym-equipment1:hover{
+    height: 100%;
+    background-color: darkgrey;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow:5px 4px 5px 4px rgb(49, 49, 49);
+}
+    .gym-equipment2{
+        /* height:1000%; */
+        width: 90%;
+        margin: 0px 5%;
+    
+    }
+    .gym-equipment2:hover{
+        height: 100%;
+        background-color: darkgrey;
+        width: 90%;
+        border-radius: 10px;
+        box-shadow: 5px 4px 5px 4px rgb(49, 49, 49);
+    }
+
+    .eqp-title1{
+        transform:translateY(-80px) translateX(40px);
+        width: 200px;
+    }
+    .eqp-title{
+        transform:translateY(-80px) translateX(40px);
+        width: 250px;
+    }
+    .shop-title{
+        padding: 0 30px;
+    }
+    .eqp-main-des{
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
     .run{
         margin: 60px 20px;
         gap: 50px;
@@ -1031,7 +1262,7 @@ footer{
 
 
 
-
+    .gym-eq,
     .healthy2,
     .nav-ul-menu,
     .footer,
