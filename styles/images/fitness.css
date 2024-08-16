@@ -449,7 +449,7 @@ main{
     width: 100%;
     border-radius: 10px;
     margin-top: 0px;
-    height: 500px;
+    max-height: 700px;
    
 }
 .gym-equipment:hover{
@@ -514,6 +514,7 @@ main{
     color: white;
     padding: 8px;
     margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 .purchase:hover{
