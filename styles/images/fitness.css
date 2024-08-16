@@ -496,7 +496,8 @@ main{
 .eqp-des{
     
     text-align: center;
-    margin: 0;    
+    margin: 0;
+    padding: 0 10px;    
 }
 .purchase{
     border-radius: 20px;
@@ -611,13 +612,25 @@ main{
 
 
 
-
+.fck{
+    display: flex;
+    justify-content: center;
+    
+}
 
 .before-bmi-title{
-    margin-left: 20%;
+    margin-left: 0 auto;
     padding:30px;
+    text-align: left;
+    width: 450px;
     
 
+}
+.bmi-before-title{
+    text-align: left;
+}
+.bmi-before-des{
+    text-align: left;
 }
 .before-title{
     text-align: center  ;
@@ -625,6 +638,12 @@ main{
 }
 .before-desc{
     color: #989898;
+}
+.bmi-before-title{
+    text-align: left;
+}
+.bmi-before-des{
+    text-align: left;
 }
 
 
@@ -1158,6 +1177,24 @@ footer{
     .eqp-main-des{
         margin-bottom: 20px;
     }
+
+
+
+
+
+
+    .before-bmi-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        padding-left: 0;
+    }
+    .bmi-before-title{
+        text-align: left;
+        font-size: 30px;
+    }
+
 
 
 
